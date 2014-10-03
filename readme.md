@@ -232,3 +232,8 @@ Get statement at given point; returns [start, end] list.
 
 Get region at given point that should be erased if you want to delete a token;
 returns sublime.Region.
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-expression
