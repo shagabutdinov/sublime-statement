@@ -1,0 +1,356 @@
+[
+  {
+    "caption": "Statement: Goto 1st token",
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 2nd token",
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 3rd token",
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 4th token",
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 5th token",
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 1st argument",
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 2nd argument",
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 3rd argument",
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 4th argument",
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 5th argument",
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto 1st token",
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 2nd token",
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 3rd token",
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 4th token",
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 5th token",
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 1st argument",
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 2nd argument",
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 3rd argument",
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 4th argument",
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select 5th argument",
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select token",
+    "command": "select_current_token"
+  },
+
+  {
+    "caption": "Statement: Select argument",
+    "command": "select_current_token",
+    "args": {
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Select statement",
+    "command": "select_root_statement"
+  },
+
+  {
+    "caption": "Statement: Delete token",
+    "command": "delete_token",
+    "args": {
+      "index": "current"
+    }
+  },
+
+  {
+    "caption": "Statement: Delete argument",
+    "command": "delete_token",
+    "args": {
+      "index": "current",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Delete statement",
+    "command": "delete_root_statement"
+  },
+
+  {
+    "caption": "Statement: Goto next token",
+    "command": "goto_token",
+    "args": {
+      "index": "next",
+      "position": "start"
+    }
+  },
+
+  {
+    "caption": "Statement: Goto previous token",
+    "command": "goto_token",
+    "args": {
+      "index": "previous",
+      "position": "start"
+    }
+  },
+
+  {
+    "caption": "Statement: Goto next argument",
+    "command": "goto_token",
+    "args": {
+      "index": "next",
+      "position": "start",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Goto previous argument",
+    "command": "goto_token",
+    "args": {
+      "index": "previous",
+      "position": "start",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Swap start/end of token",
+    "command": "goto_token",
+    "args": {
+      "index": "current",
+      "position": "end",
+      "swap": true
+    }
+  },
+
+  {
+    "caption": "Statement: Swap start/end of argument",
+    "command": "goto_token",
+    "args": {
+      "index": "current",
+      "position": "end",
+      "swap": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Swap token forward",
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "next",
+    }
+  },
+
+  {
+    "caption": "Statement: Swap token backward",
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "previous",
+    }
+  },
+
+  {
+    "caption": "Statement: Swap argument forward",
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "next",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Swap argument backward",
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "previous",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "Statement: Duplicate statement",
+    "command": "duplicate_statement"
+  },
+
+  {
+    "caption": "Statement: Add line after statement",
+    "command": "add_line_after_statement"
+  },
+
+  {
+    "caption": "Statement: Add line before statement",
+    "command": "add_line_after_statement",
+    "args": {
+      "before": true
+    }
+  }
+]

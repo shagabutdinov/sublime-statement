@@ -1,0 +1,410 @@
+[
+  // for debugging; there should be tests instead of it
+
+  // {
+  //   "keys": ["f5"],
+  //   "command": "highlight_tokens",
+  // },
+
+  // {
+  //   "keys": ["f6"],
+  //   "command": "highlight_statement",
+  // },
+
+  // {
+  //   "keys": ["shift+f6"],
+  //   "command": "highlight_statement",
+  //   "args": {
+  //     "root": true
+  //   }
+  // },
+
+  {
+    "keys": ["alt+ctrl+1"],
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+2"],
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+3"],
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+4"],
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+5"],
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+1"],
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+2"],
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+3"],
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+4"],
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+5"],
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+shift+1"],
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "keys": ["alt+shift+2"],
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "keys": ["alt+shift+3"],
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "keys": ["alt+shift+4"],
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "keys": ["alt+shift+5"],
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true,
+      "select": true
+    }
+  },
+
+  {
+    "keys": ["alt+shift+1"],
+    "command": "goto_token",
+    "args": {
+      "index": 0,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+shift+2"],
+    "command": "goto_token",
+    "args": {
+      "index": 1,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+shift+3"],
+    "command": "goto_token",
+    "args": {
+      "index": 2,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+shift+4"],
+    "command": "goto_token",
+    "args": {
+      "index": 3,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+shift+5"],
+    "command": "goto_token",
+    "args": {
+      "index": 4,
+      "swap": true,
+      "select": true,
+      "as_arguments": true
+    },
+    "context": [
+      {"key": "in_nesting", "operator": "equal", "operand": true}
+    ]
+  },
+
+  {
+    "keys": ["alt+s"],
+    "command": "select_current_token",
+    "context": [
+      {"key": "setting.is_widget", "operator": "equal", "operand": false}
+    ]
+  },
+
+  {
+    "keys": ["alt+shift+s"],
+    "command": "select_current_token",
+    "args": {
+      "as_arguments": true
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+s"],
+    "command": "select_root_statement",
+  },
+
+  {
+    "keys": ["alt+d"],
+    "command": "delete_token",
+    "args": {
+      "index": "current",
+    },
+  },
+
+  {
+    "keys": ["alt+shift+d"],
+    "command": "delete_token",
+    "args": {
+      "index": "current",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "keys": ["alt+ctrl+d"],
+    "command": "delete_root_statement"
+  },
+
+  {
+    "keys": ["alt+."],
+    "command": "goto_token",
+    "args": {
+      "index": "next",
+      "position": "start"
+    }
+  },
+
+  {
+    "keys": ["alt+,"],
+    "command": "goto_token",
+    "args": {
+      "index": "previous",
+      "position": "start"
+    }
+  },
+
+  {
+    "keys": ["alt+shift+."],
+    "command": "goto_token",
+    "args": {
+      "index": "next",
+      "position": "start",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "keys": ["alt+shift+,"],
+    "command": "goto_token",
+    "args": {
+      "index": "previous",
+      "position": "start",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "keys": ["alt+m"],
+    "command": "goto_token",
+    "args": {
+      "index": "current",
+      "position": "end",
+      "swap": true
+    }
+  },
+
+  {
+    "keys": ["alt+shift+m"],
+    "command": "goto_token",
+    "args": {
+      "index": "current",
+      "position": "end",
+      "swap": true,
+      "as_arguments": true
+    }
+  },
+
+  {
+    "keys": ["ctrl+alt+."],
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "next",
+    }
+  },
+
+  {
+    "keys": ["ctrl+alt+,"],
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "previous",
+    }
+  },
+
+  {
+    "keys": ["ctrl+alt+shift+."],
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "next",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "keys": ["ctrl+alt+shift+,"],
+    "command": "swap_tokens",
+    "args": {
+      "source": "current",
+      "target": "previous",
+      "as_arguments": true
+    }
+  },
+
+  {
+    "keys": ["ctrl+shift+d"],
+    "command": "duplicate_statement"
+  },
+
+  {
+    "keys": ["ctrl+'"],
+    "command": "add_line_after_statement"
+  },
+
+  {
+    "keys": ["ctrl+;"],
+    "command": "add_line_after_statement",
+    "args": {
+      "before": true
+    }
+  }
+
+]
