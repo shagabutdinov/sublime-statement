@@ -25,7 +25,10 @@
     "args": {
       "index": 0,
       "swap": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -34,7 +37,10 @@
     "args": {
       "index": 1,
       "swap": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -43,7 +49,10 @@
     "args": {
       "index": 2,
       "swap": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -52,7 +61,10 @@
     "args": {
       "index": 3,
       "swap": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -61,7 +73,10 @@
     "args": {
       "index": 4,
       "swap": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -73,6 +88,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -86,6 +102,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -99,6 +116,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -112,6 +130,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -125,6 +144,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -136,7 +156,10 @@
       "index": 0,
       "swap": true,
       "select": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -146,7 +169,10 @@
       "index": 1,
       "swap": true,
       "select": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -156,7 +182,10 @@
       "index": 2,
       "swap": true,
       "select": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -166,7 +195,10 @@
       "index": 3,
       "swap": true,
       "select": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -176,7 +208,10 @@
       "index": 4,
       "swap": true,
       "select": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -189,6 +224,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -203,6 +239,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -217,6 +254,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -231,6 +269,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -245,6 +284,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_nesting", "operator": "equal", "operand": true}
     ]
   },
@@ -253,6 +293,7 @@
     "keys": ["alt+s"],
     "command": "select_current_token",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "setting.is_widget", "operator": "equal", "operand": false}
     ]
   },
@@ -262,7 +303,10 @@
     "command": "select_current_token",
     "args": {
       "as_arguments": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -284,7 +328,10 @@
     "args": {
       "index": "current",
       "as_arguments": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -298,7 +345,10 @@
     "args": {
       "index": "next",
       "position": "start"
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -307,7 +357,10 @@
     "args": {
       "index": "previous",
       "position": "start"
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -317,7 +370,10 @@
       "index": "next",
       "position": "start",
       "as_arguments": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -327,7 +383,10 @@
       "index": "previous",
       "position": "start",
       "as_arguments": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -337,7 +396,10 @@
       "index": "current",
       "position": "end",
       "swap": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -348,7 +410,10 @@
       "position": "end",
       "swap": true,
       "as_arguments": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -357,7 +422,10 @@
     "args": {
       "source": "current",
       "target": "next",
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -366,7 +434,10 @@
     "args": {
       "source": "current",
       "target": "previous",
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -376,7 +447,10 @@
       "source": "current",
       "target": "next",
       "as_arguments": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -386,7 +460,10 @@
       "source": "current",
       "target": "previous",
       "as_arguments": true
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {

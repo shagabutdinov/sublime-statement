@@ -8,7 +8,7 @@ to manipulate tokens and statements.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-statement/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/statement.gif "Demo")
 
 
 ### Installation
@@ -236,4 +236,4 @@ returns sublime.Region.
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-expression
+* [Expression](https://github.com/shagabutdinov/sublime-expression)

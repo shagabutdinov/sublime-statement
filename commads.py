@@ -1,7 +1,15 @@
 import sublime
 import sublime_plugin
-from Statement import statement
+
 import re
+
+try:
+  from Statement import statement
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "Statement plugin for installation instructions; to disable this " +
+   "message remove this plugin")
+
 
 regions_added = False
 
