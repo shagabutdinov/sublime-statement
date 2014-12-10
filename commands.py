@@ -323,8 +323,6 @@ class SelectCurrentToken(Base):
     if token == None:
       token = [sel.begin(), sel.end()]
 
-    # print(token)
-
     return sublime.Region(token[0], token[1])
 
 class SelectRootStatement(Base):
