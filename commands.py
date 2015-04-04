@@ -325,6 +325,22 @@ class SelectCurrentToken(Base):
 
     return sublime.Region(token[0], token[1])
 
+class SelectCurrentTokenTail(SelectCurrentToken):
+  def run(self, edit, as_arguments = False):
+    selections = []
+    for sel in self.view.sel():
+      new_sel = self._get_new_selection(sel, as_arguments)
+      if new_sel.a < new_sel.b:
+        new_sel.a = sel.begin()
+      else:
+        new_sel.b = sel.begin()
+
+      selections.append(new_sel)
+
+    self.view.sel().clear()
+    self.view.sel().add_all(selections)
+
+
 class SelectRootStatement(Base):
   def run(self, edit):
     selections = []
