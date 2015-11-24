@@ -6,11 +6,11 @@ from Statement import parser
 
 try:
   from Expression import expression
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "Statement plugin for installation instructions; to disable this " +
-   "message remove this plugin")
-
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 RANGE = 10240
 

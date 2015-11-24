@@ -5,11 +5,11 @@ import re
 
 try:
   from Statement import statement
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "Statement plugin for installation instructions; to disable this " +
-   "message remove this plugin")
-
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 regions_added = False
 
