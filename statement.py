@@ -32,7 +32,7 @@ def is_arguments(view, point, nesting = None):
   if nesting_opener == '(':
     return re.search(r'\w\s*$', preceding_64_bytes) != None
   elif nesting_opener == '{':
-    return re.search(r'[\w)]\s*$', preceding_64_bytes) == None
+    return re.search(r'([\w)]|=>|->)\s*$', preceding_64_bytes) == None
   else:
     raise Exception('Unknown nesting opener "' + nesting_opener + '"')
 
